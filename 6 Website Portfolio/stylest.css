@@ -1,0 +1,108 @@
+.page-header{
+ font-family:Times New Roman, Times, serif;
+ font-weight:bold;
+ font-size:45px;
+ color:#cbd3d0;
+}
+.navbar-brand{
+width:180px;
+}
+.page-header{
+ color:76, 187, 23;
+}
+.unit-or, .the{
+  background-color:gold;
+}
+
+p{
+ font-family:courier;
+ font-size:20px;
+ color:black;
+}
+.caption{
+color:red;
+font-family:courier;
+font-weight:bold;
+}
+.a{
+color:red;
+font-weight:bold;
+}
+
+#mycost small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+#totalTip:before{
+content: "Tip amount";
+font-size: 20px;
+font-weight: bold;
+display: block;
+text-transform: uppercase;
+}
+h1{
+color:red;
+font-weight:bold;
+}
+h2{
+  color:gray;
+}
+.special{
+ border-radius:25px;
+}
+.kelly-green{
+ background-color:76, 187, 23;
+}
+#tip-content{
+background-color:navy;
+border-radius:5px;
+margin-left:25%;
+margin-right:25%;
+border-color:black;
+border-width:12px;
+border-style: solid;
+}
+#totalTip {
+  font-size: 30px;
+  margin-top: 5px;
+  text-align: center;
+  display: invisible;
+}
+
+
+
+#totalTip sup {
+  font-size: 20px;
+  top: -18px;
+}
+
+#totalTip small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+#tip-title{
+background-color:black;
+border-radius:5px;
+border-color:black;
+border-width:12px;
+border-style: solid;
+}
+.container-fluid{
+  border-radius:5px;
+  background-color: white;
+  margin-left: 32%;
+  margin-right: 32%;
+}
+#MyClockDisplay{
+  color: green;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.left-align{
+  text-align:left;
+}
+.gray{
+  color:silver;
+}
