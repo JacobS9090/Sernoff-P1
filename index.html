@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="stylest.css">
+
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        Bootstrap CSS
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylest.css">
+        Bootstrap JavaScript
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> --> -->
+        <script src="trinket.js"></script>
+        <title>Website Portfolio</title>
+    </head>
+    <body>
+
+       <div class="container">
+            <h3 class="page-header text-center">Website Portfolio</h3>
+       </div>
+
+        <div class="sticky container-fluid" id="navbar"><center>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <ul class="nav nav-tabs">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="#aboutme">About me</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#work">Work</a></li>
+              <li><a href="interests">Interests</a></li>
+              <li><a href="#contacts">Contacts</a><li>
+              <li><a href="#pastprojects">Past-Projects</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle navbar-brand" data-toggle="dropdown" href="entertain.html">
+                  <span class="caret"></span>Entertainment</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="https://jacobs9090.github.io/aboutme.github.io/">First Project 10/2018</a></li>
+                    <li><a href="https://jacobs9090.github.io/storyproject.github.io/">Google Project 1/2019</a></li>
+                    <li><a href="https://jacobs9090.github.io/cityproject.github.io/">City Project 3/2019</a></li>
+                    <li><a href="https://jacobs9090.github.io/onepager.github.io/">Scrolling Onepager 5/2019</a></li>
+                    <li><a href="https://jacobs9090.github.io/summer-project.github.io/">Summer Project</a></li>
+                    <li><a href="unit-one.html">Unit One</a></li>
+                    <li><a href="unit-two.html">Unit-Two</a></li>
+                  </ul>
+          </center>
+          </div>
+        </nav>
+
+               <div class="container-fluid">
+                 <div class="row">
+                 <div class="col-xs-4">
+                     <img class="special" src="IMG/me.JPEG"><br>
+                 <div id="container-fluid MyClockDisplay"></div>
+                 <div id="MyClockDisplay"></div>
+                 <script type="text/javascript">
+                   function showTime(){
+                     var date = new Date();
+                     var h = date.getHours(); //0-23
+                     var m = date.getMinutes(); //0-59
+                     var s = date.getSeconds(); //0-59
+                     var session = "AM";
+
+                     if(h == 0){
+                       h = 12;
+                     }
+                     if(h > 12){
+                       h = h - 12;
+                       session = "PM";
+                     }
+                     h = (h < 10) ? "0" + h: h;
+                     m = (m < 10) ? "0" + m: m;
+                     s = (s < 10) ? "0" + s: s;
+
+                     var time= h + ":" + m + ":" + s + "" + session;
+                     document.getElementById("MyClockDisplay").innerText = time;
+                     document.getElementById("MyClockDisplay").textContent = time;
+
+                     setInterval(showTime, 1000);
+                 }
+                   showTime();
+                 </script>
+               </div>
+
+                 }
+                 </script>
+               </span>
+                </div>
+  </div>
+ <div class="container-fluid">
+            <h3 id="aboutme" class="page-header"><center>Who I am</center></h3>
+            <center><p>
+                My name is Jacob (Jake) Sernoff, I am currently in my Junior year of highschool and my second year of the Web Design program. I am proficient in the use of HTML, Bootstrap, and CSS. I have shown this
+            in my past Websites. My first website was to be about me and as you could see the code looks pretty basic, as compared to the Summer Project. The second project I did was about Google, and
+            this time I utilized my new skills in using animations through CSS. The next project would primarily use Bootstrap, and would be a travel guide for the city of Austin, TX. My next project would be a Onepager.
+            This Onepager was to commemorate Jeopardy's 35 years of being on National Television, and 21 day streak holder James Holzhauer. My last project would be for the fictional website of Eastern Express
+            which would be a discount bookseller.</center></p>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container-fluid">
+    <h3 id="education" class="page-header"><center>Education</center></h3>
+      <center><p> I am currently a Senior at Freehold Highschool, and my application has been accepted for NJITs Business Program</center></p>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container-fluid">
+    <h3 id="work" class="page-header"><center>Work Experience</center></h3>
+    <center><p>I was a camp counselor at Ivy League Day Camp during the summer of </center></p>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container-fluid">
+    <h3 id="interests" class="page-header"><center>Interests</center></h3>
+    <center><p> I am currently interested in studying finance in University and eventually getting my MBA</center></p>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container-fluid">
+    <h3 id="contacts" class="page-header"><center>Contacts</center></h3>
+    <center><p>Email:jacobsernoff@gmail.com
+    </center></p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>.
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylest.css">
+
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        Bootstrap CSS
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        Bootstrap JavaScript
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> --> -->
+        <title>Website Portfolio</title>
+      <script type="text/javascript" src="calc.js"></script>
+  <head>
+<body class="unit-or">
+  <div class="container-fluid row">
+    <div class="col-xs-6">
+            <h2>Implementing my Javascript skills</h2>
+            <h1><a href="unit-one.html">Unit 1</a></h1>
+            <h1><a href="unit-two.html">Unit 2</a></h1>
+            <a href="index.html"><button>Home</button></a>
+    </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="col-xs-6">
+    <button onclick="document.getElementById('myImage').src='iluyshin1.jpg'">Picking up speed</button>.
+    <img id="myImage" src="iluyshin1.jpg" style="width:100px">
+    <button onclick="document.getElementById('myImage').src='iluyshin2.jpg'">Take-Off</button>.
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+    <div id="MyClockDisplay"></div>
+    <script type="text/javascript">
+      function showTime(){
+        var date = new Date();
+        var h = date.getHours(); //0-23
+        var m = date.getMinutes(); //0-59
+        var s = date.getSeconds(); //0-59
+        var session = "AM";
+
+        if(h == 0){
+          h = 12;
+        }
+        if(h > 12){
+          h = h - 12;
+          session = "PM";
+        }
+        h = (h < 10) ? "0" + h: h;
+        m = (m < 10) ? "0" + m: m;
+        s = (s < 10) ? "0" + s: s;
+
+        var time= h + ":" + m + ":" + s + "" + session;
+        document.getElementById("MyClockDisplay").innerText = time;
+        document.getElementById("MyClockDisplay").textContent = time;
+
+        setInterval(showTime, 1000);
+    }
+      showTime();
+    <!-- </script> -->
+  </div>
+
+    }
+    </script>
+  <div class="container-fluid the">
+              <div id="tip-content">
+                  <div id="tip-title">
+                    <h1 class="left-align page-header">Tip Calculator</h1>
+                  </div>
+                <div id="calculator">
+
+                        <h2 class="left-align">How much was your bill?</h2>
+                      <span>
+                        <form action="/action_page.php">
+                          <input id="billcost" placeholder="$Bill Amount" type="text">
+                        </form>
+                      </span>
+                        <br>
+                        <h2 class="left-align">Service</h2>
+                        <select id="quality">
+                          <option disabled-selected>--Choose an Option--</option>
+                          <option value="1.05">Meh-5%</option>
+                          <option value="1.1">Good-10%</option>
+                          <option value="1.15">Nice-15%</option>
+                          <option value="1.2">Superior-20%</option>
+                        </select>
+                        <br>
+                        <h2 class="left-align">How many people are sharing the bill?</h2>
+                        <span>
+                          <form action="/action_page.php">
+                            <input id="peopleamt" placeholder="Amount of People" type="text">
+                          </form>
+                        </span>
+
+                         <h2 class="left-align">Number of people</h2>
+                        <button type="button" id="calculatet">Calculate</button>
+                    </div>
+
+                    <div id="totalTip">
+                      <sup>$</sup><span id="tip">0.00</span>
+                      <small id="each">each</small>
+                    </div>
+                  </div>
+</div>
+
+
+
+        </div>
+  </body>
+</html>
