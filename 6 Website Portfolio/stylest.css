@@ -2,7 +2,7 @@
  font-family:Times New Roman, Times, serif;
  font-weight:bold;
  font-size:45px;
- color:#cbd3d0;
+ color:black;
 }
 .navbar-brand{
 width:180px;
@@ -46,7 +46,7 @@ color:red;
 font-weight:bold;
 }
 h2{
-  color:gray;
+  color:black;
 }
 .special{
  border-radius:25px;
@@ -105,4 +105,7 @@ border-style: solid;
 }
 .gray{
   color:silver;
+}
+h3{
+  color:black;
 }
